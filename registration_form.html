@@ -1,0 +1,58 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomePage</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+  <form>
+            First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" pattern="[A-Za-z]{1,25}"  title="enter characters only" required ><br><br>
+
+            Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" pattern="[A-za-z]{1,25}" title="enter characters only" required><br><br>
+
+            Address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea pattern="{,50}" required></textarea><br><br>
+            
+            Email id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" required><br><br>
+
+            State : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                    <option>Maharashtra</option>
+                    <option>Rajasthan</option>
+                    <option>Karnataka</option>
+                    <option>Uttar Pradesh</option>
+                </select><br><br>
+
+            City :<select>
+                    <option>Kota</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Jaipur</option>
+                </select><br><br>
+
+        University Branch Name :<input type="text"><br><br>
+
+        Phone Number :<input type ="tel" pattern="[1-9]{1}[0-9]{9}" title="enter a ten digit number only" required><br><br>
+
+        Enrolled Courses:<select>
+            <option>JAVA</option>
+            <option>PYTHON</option>
+            <option>PHP</option>           
+            <option>.NET</option>
+    </select><br><br>
+
+    Date of Test :<input type="date"><br><br>
+
+    Written Test Marks: <input type="text" min="50" max="100"><br><br>
+
+    <input type="button" value="submit">
+       
+</form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+
+    <link rel="stylesheet" href="style.css">
+
+        <style>
+            table
+            {
+                border-collapse:collapse;
+                border: 1px solid black;
+                width:300px;
+                height:300px;            
+            }
+
+            .alignCenter
+            {
+                
+                position:relative;
+                left:500px;
+            }
+        
+        </style>
+
+</head>
+<body>
+
+    <div id="header"></div>
+
+<div class="alignCenter">
+
+    <h1> Account Detail's</h1>
+    <table>
+        <tr>
+            <td>Account Number</td>
+            <td><input type="text"> </td>
+        </tr>
+
+        <tr>
+                <td>Customer ID</td>
+                <td><input type="text"></td>
+        </tr>
+
+        <tr>
+                    <td>Account Type</td>
+                    <td><input type="text"></td>
+        </tr>
+
+        <tr>
+                <td>Account Balance</td>
+                <td><input type="text"></td>
+        </tr>
+
+        <tr>
+                <td>Overdraft Limit</td>
+                <td><input type="text"></td>
+        </tr>
+
+        <tr>
+                <td>Salary Amount</td>
+                <td><input type="text"></td>
+        </tr>
+    </table>
+</div>    
+
+<div id="footer"></div>
+</body>
+</html>

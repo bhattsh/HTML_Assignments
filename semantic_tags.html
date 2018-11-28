@@ -4,40 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Page</title>
+    <title>HTML semantics</title>
 
-    <style>
+        <style>
  
-#container {    
-    width: 100%; 
-    margin: 0 auto;
-    min-height: 750px;
-    height: auto;
-    background-color:white;
-    position: relative;
-    border-style :solid;
-}
 
-#header {
-    width: 90%;
-    height: 10vh;
-    margin: 0 auto;
-    background-color:none;
-    padding: 10px;
-    position: relative;
-}
-    
-    </style>
+                h1{
+                    color:green;
+                    font-style:italic;
+                    position:relative;
+                    top:45px;
+                    left:100px;
+                }
+
+                nav{
+                    text-align:right;
+                    font-size:25px;
+                    position:relative;
+                    right:120px;
+                    bottom:10px;
+                }
+
+                img
+                {
+                    width:1200px;
+                    height:400px;
+                    position:relative;
+                    left:100px;
+                }
+                
+                article
+                {
+                    width:700px;
+                    height:200px;
+                    background-color: white; 
+                    position:relative;
+                    left:100px;
+                }  
+
+                aside
+                {
+                    width:500px;
+                    height:150px;
+                    background-color: RED; 
+                    position:relative;
+                    float:right;
+                    bottom:195px;
+                    right:100px;
+                }  
+
+                a{
+
+                    text-decoration:none;
+                    color:green;
+                }
+
+                p{
+                    margin:20px;
+                }
+         </style>
 </head>
-<body>
-    <div id="container">
-         <div id="header">
+
+<body style="background-color: peachpuff">
+             <header>
                <h1>Joe's Pizza Co.</h1>
-               <div id="nav">
-                   <h3>Home</h3>
-                   <h3>About</h3>
-               </div>
-         </div>
-    </div>
+               <nav>
+                   <a href="#">Home</a>&nbsp;
+                   <a href="#">About</a>&nbsp;
+                   <a href="#">News </a>&nbsp;
+                   <a href="#">Menu</a>&nbsp;
+                   <a href="#">Location</a>&nbsp;
+                   <a href="#">Booking</a>&nbsp;
+               </nav>
+
+              </header>
+
+         <img src="pizzaImage.png">
+
+         <article>
+            <header>
+                <p style="margin:20px; padding:3px; font-size:25px;"><b>Welcome to Joe's pizza Co.</b></p>
+            </header>    
+                    <p>
+                        We pride ourselves on serving upthe best pizza's in New York city. Come and visit one of our family friendly
+                        restaurants and take a look at our wide range of authentic italian pizzas. we can also deliver also to your
+                        door with our speedy takeaway service.
+                        <br><br>
+                        Please take a look at the <a href="3">Location</a> page for more information about where you can find our fantastic restaurants.
+                    </p>
+                   
+        </article>
+
+         <aside>
+             <header>
+                    <p style="margin:20px; padding:0.5px; font-size:25px; color:white;"><b>Special offers</b></p>
+             </header>    
+             
+                    <p style="color:white"> 10% Off all pizzas when you eat in!<br>
+                    <br>
+                     20% off Joe's pepperoni special with promo code NYBESTPIZZA.     
+                </p>
+             
+        </aside>
 </body>
 </html>

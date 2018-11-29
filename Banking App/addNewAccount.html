@@ -7,7 +7,7 @@
     <title>Account Form</title>
 
     <link rel="stylesheet" href="style.css">
-    
+
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -25,26 +25,18 @@ $(function(){
             {
                 text-align:center;
             }
-
-            main{
-                height:400px;
-                width:500px;
-                background-color: azure;
-                border:1px solid black;
-                position:absolute;
-                left:500px;
-            }
     </style>
 </head>
 <body>
 
         <div id="header"></div>
 
-<h1 style="text-align:center"> Account Form</h1>
-    <main>
+<h1 class="head"> Account Form</h1>
+
+<div class="main">
 
     <form action="#">
-        <table  width="400px" height="300px" style="border-collapse:collapse;">        
+        <table height="300px">        
         <tr>
             <td>Account Holder Name</td> 
             <td><input type="text"></td>
@@ -72,7 +64,7 @@ $(function(){
 
 
         </table>
-
+<br>
         <div class="alignCenter">
                 <input type="button" value="submit">&nbsp;&nbsp;
                  <input type="reset" value="reset">
@@ -80,7 +72,7 @@ $(function(){
 
      </form>
 
-    </main>
+    </div>
 
     <div id="footer"></div>
 </body>

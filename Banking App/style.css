@@ -5,3 +5,35 @@ a
   color:blueviolet;
   font-size: 22px;
  }
+
+
+
+ .main{
+     text-align:left;
+    width:500px;
+    background-color: azure;
+    position:absolute;
+    left:500px;
+}
+
+ .alignbutton
+ {
+     position:relative;
+     left:130px;
+ }
+
+ table
+ {
+     width:400px;
+     height:300px; 
+     border-collapse:collapse;
+ }
+
+ .head
+ {
+     text-align:center;
+ }
+
+ body { 
+   background: azure;
+}

@@ -22,7 +22,7 @@ $(function(){
 
 <link rel="stylesheet" href="style.css">
 
-   
+
 </head>
 <body>
 
@@ -31,19 +31,30 @@ $(function(){
     <h1 style="text-align:center">Enter Detail's</h1>
     <form action="#">
    <div class="main">
-        <table style="width:350px;height:200px;">
+        <table>
             <tr>
-                <th>Account No</th>
+                <th>From Account No</th>
                 <td><input type="number" required></td>
             </tr>
 
             <tr>
-                    <th>Amount To Withdraw</th>
+                    <th>To Account No</th>
                     <td><input type="number" required></td>
             </tr>
-                
+
                 <tr>
-                        <td><button type="submit"class="alignbutton" value="Submit">Withdraw</button> </td>
+                        <th>Amount To Transfer</th>
+                        <td><input type="number" required></td>
+                </tr>
+
+                 <tr>
+                        <th>Remarks</th>
+                        <td><input type="text" required></td>
+                </tr>   
+                
+
+                <tr>
+                        <td><button type="submit" class="alignbutton" value="Submit" style="left:180px;">Transfer</button> </td>
                 </tr>
 
         </table>

@@ -25,23 +25,21 @@ $(function(){
 
 
         <style>
-        table,th,td
-        {
-            width:800px;
+      
+      table, th, td{
             border:1px solid black;
             border-collapse:collapse;
-            
-        }
-        .center
-        {
-            margin-left:auto;
-            margin-right:auto;
         }
 
-        .input
+        th,td
         {
-            border:none;
+            padding:5px;
         }
+        th
+        {
+            text-align:left;
+        }
+        
         </style>
 
 </head>
@@ -49,28 +47,28 @@ $(function(){
 
     <div id="header"></div>
     
-    <h1 style="text-align:center"> All Customer Detail's</h1>
-    <table class="center">
+    <h1 class="head"> All Customer Detail's</h1>
+
+    <table style="width:100%;height:100px;">
         <tr>
-            <td>Customer ID</td>
-            <td>Customer Name</td>
-            <td>Account Number</td>
-            <td>Email ID</td>
-            <td>Phone No</td>
-            <td>DOB</td>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Account Number</t>
+            <th>Email ID</th>
+            <th>Phone No</th>
+            <th>DOB</th>
         </tr>
 
         <tr>     
-                <td><input type="text" class="input" readonly></td>
+                <td>null</td>
                 <td> null</td>
-                <td><input type="text" class="input" readonly></td>
+                <td>null</td>
                 <td> null</td>
                 <td> nul</td>
                 <td> null</td>
         </tr>
 
     </table>
-    
     
     <div id="footer"></div>
 </body>

@@ -24,36 +24,20 @@ $(function(){
 
 
 
-        <style>
-            table
-            {
-                border-collapse:collapse;
-                border: 1px solid black;
-                width:300px;
-                height:300px;            
-            }
-
-            .alignCenter
-            {
-                
-                position:relative;
-                left:500px;
-            }
-        
-        </style>
-
 </head>
 <body>
 
 <div id="header"></div>
 
-<div class="alignCenter">
+<h1 style="text-align:center"> Account Detail's</h1>
 
-    <h1> Account Detail's</h1>
+<div class="main" style="width:400px">
+
+    
     <table>
         <tr>
             <td>Customer ID</td>
-            <td><input type="text"> </td>
+            <td><input type="text" readonly> </td>
         </tr>
 
         <tr>
@@ -63,7 +47,7 @@ $(function(){
 
         <tr>
                     <td>Account No</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" readonly></td>
         </tr>
 
         <tr>
@@ -80,6 +64,11 @@ $(function(){
                 <td>Date Of Birth</td>
                 <td><input type="text"></td>
         </tr>
+
+        <tr>
+                <td><button type="submit"class="alignbutton" value="Submit">Update</button> </td>
+        </tr>
+
     </table>
 </div>    
 

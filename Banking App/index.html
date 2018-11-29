@@ -19,6 +19,18 @@ $(function(){
 });
 </script>
 
+<style>
+    .middle
+    {
+        background-image: element("images/background1.png");
+    }
+    .in
+    {
+        position: relative;
+        left:750px;
+        top:100px;
+    }
+</style>
 
 </head>
 
@@ -27,6 +39,16 @@ $(function(){
 
     <div id="header"></div>
 
+    <div id="middle" style="background-image: url(images/background1.jpg); height:400px">
+  <h1 style="text-align:center">WELCOME TO HDFC</h1>  
+<form>
+   <input type="text" required class="in" placeholder="User Name"> <br><br>
+   <input type="password" required class="in" placeholder="password"><br><br>
+  <input type="submit" value="submit" class="in">
+
+</form> 
+
+    </div>
     <div id="footer"></div>
 
 </body>
